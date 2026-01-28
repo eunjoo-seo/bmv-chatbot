@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMV Chat</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <div class="header-left">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M12 2l7 3v6c0 5-3.5 9-7 11-3.5-2-7-6-7-11V5l7-3z" fill="#ffdd00"/>
+          <path d="M12 2l7 3v6c0 5-3.5 9-7 11V2z" fill="#111" opacity=".25"/>
+        </svg>
+        <span class="header-title">BMV Chat</span>
+      </div>
+      <div class="header-right">
+        <span class="experimental-tag">Experimental</span>
+        <span class="menu-icon">Menu ▾</span>
+      </div>
+    </div>
+
+    <div class="chat-messages" id="chat-messages"></div>
+
+    <div class="chat-input">
+      <div class="input-wrap">
+        <textarea id="user-input" rows="1" placeholder="Type your message... (Shift+Enter for newline)"></textarea>
+      </div>
+      <button id="send-button">Send</button>
+    </div>
+  </div>
+
+  <script>window.SCRIPT_SCENARIO = 'followup-simple';</script>
+  <script src="./script.js"></script>
+</body>
+</html>
