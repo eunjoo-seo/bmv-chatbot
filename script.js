@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
       { type: 'chatbot', text: "You can renew an Indiana driver’s license up to 24 months before it expires if you are a U.S. citizen. If you are non-citizen with temporary lawful status, renewal is usually allowed up to 30 days before expiration. Would you like to know what documents you need to have?" },
       { type: 'chatbot', text: "Would you like to know what documents you need to have?" },
       { type: 'user',    text: "I need my current driver’s license with me, right?" },
-      { type: 'chatbot', text: "Correct, but you typically need as follows:\nProof of identity (e.g., passport or birth certificate)\nProof of Social Security number\nTwo documents proving Indiana residency\nWould you like to know the typical time and cost that the process takes?" },
+      { type: 'chatbot', text: "Correct, but you typically need as follows:\nProof of identity (e.g., passport or birth certificate)\nProof of Social Security number\nTwo documents proving Indiana residency" },
       { type: 'chatbot', text: "Would you like to know the typical time and cost that the process takes?" },
       { type: 'user',    text: "Yes, please." },
       { type: 'chatbot', text: "The renewal fee for most drivers under age 75 is $17.50. Your permanent license is usually mailed within about 14 days. If needed, you’ll receive a temporary credential." }
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
       { type: 'chatbot', text: "Indiana cannot issue or transfer your license while there is an active suspension in another state. You must first resolve the Illinois suspension before Indiana can process your application. Would you like to know how to clear the suspension?" },
       { type: 'chatbot', text: "Would you like to know how to clear the suspension?" },
       { type: 'user',    text: "Yes." },
-      { type: 'chatbot', text: "Here are the usual steps:\nContact the Illinois court or Secretary of State to confirm the reason for the suspension.\nResolve the ticket (pay fines, attend court, or set up a payment plan).\nPay any Illinois reinstatement fees, if required.\nWait until Illinois updates your driving record to show the suspension is cleared.\nWould you want to know what you should do once it’s cleared?" },
+      { type: 'chatbot', text: "Here are the usual steps:\nContact the Illinois court or Secretary of State to confirm the reason for the suspension.\nResolve the ticket (pay fines, attend court, or set up a payment plan).\nPay any Illinois reinstatement fees, if required.\nWait until Illinois updates your driving record to show the suspension is cleared." },
       { type: 'chatbot', text: "Would you want to know what you should do once it’s cleared?" },
       { type: 'user',    text: "Yes, please." },
       { type: 'chatbot', text: "You can then apply for an Indiana driver’s license at a BMV branch with your reinstatement documentation." }
