@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'followup-simple': [
       { type: 'chatbot', text: "Hi, I am your BMV assistant. How can I help you?" },
       { type: 'user',    text: "I live in Indiana and want to renew my driver’s license. When should I renew my license?" },
-      { type: 'chatbot', text: "You can renew an Indiana driver’s license up to 24 months before it expires if you are a U.S. citizen. If you are non-citizen with temporary lawful status, renewal is usually allowed up to 30 days before expiration. Would you like to know what documents you need to have?" },
+      { type: 'chatbot', text: "You can renew an Indiana driver’s license up to 24 months before it expires if you are a U.S. citizen. If you are non-citizen with temporary lawful status, renewal is usually allowed up to 30 days before expiration." },
       { type: 'chatbot', text: "Would you like to know what documents you need to have?" },
       { type: 'user',    text: "I need my current driver’s license with me, right?" },
       { type: 'chatbot', text: "Correct, but you typically need as follows:\nProof of identity (e.g., passport or birth certificate)\nProof of Social Security number\nTwo documents proving Indiana residency" },
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'followup-complex': [
       { type: 'chatbot', text: "Hi, I am your BMV assistant. How can I help you?" },
       { type: 'user',    text: "I moved from Illinois to Indiana, but I just found out my Illinois license is suspended. What should I do?" },
-      { type: 'chatbot', text: "Indiana cannot issue or transfer your license while there is an active suspension in another state. You must first resolve the Illinois suspension before Indiana can process your application. Would you like to know how to clear the suspension?" },
+      { type: 'chatbot', text: "Indiana cannot issue or transfer your license while there is an active suspension in another state. You must first resolve the Illinois suspension before Indiana can process your application." },
       { type: 'chatbot', text: "Would you like to know how to clear the suspension?" },
       { type: 'user',    text: "Yes." },
       { type: 'chatbot', text: "Here are the usual steps:\nContact the Illinois court or Secretary of State to confirm the reason for the suspension.\nResolve the ticket (pay fines, attend court, or set up a payment plan).\nPay any Illinois reinstatement fees, if required.\nWait until Illinois updates your driving record to show the suspension is cleared." },
